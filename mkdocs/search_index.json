@@ -1,0 +1,44 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Be Sober Now on IRC\n\n\n\n\nOp'ing notes", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#be-sober-now-on-irc", 
+            "text": "Op'ing notes", 
+            "title": "Be Sober Now on IRC"
+        }, 
+        {
+            "location": "/opnotes/", 
+            "text": "IRC Operator information\n\n\nLinks\n\n\n\n\nSnoonet channel modes\n\n\nSnoonet user modes\n\n\n\n\nSee also \n/msg ChanServ help [command]\n with \n[command]\n\n\n\n\nAOP\n set a collection of access flags giving high level of access.\n\n\nACCESS\n set access in a medium-grained way via a numeric level.\n\n\nFLAGS\n set access in a fine-grained with via lettered flags.\n\n\n\n\nChannel Access\n\n\nSetting/seeing who has what permission over the channel settings.\n\n\nGive ultimate access to exactly one individual:\n\n\n/msg ChanServ SET FOUNDER #CHANNEL *!*@HOSTNAME\n\n\n\n\nGive full access:\n\n\n/msg ChanServ AOP #CHANNEL ADD *!*@HOSTNAME\n\n\n\n\nList full access\n\n\n/msg ChanServ AOP #CHANNEL LIST\n\n\n\n\nMore fine grained via ACCESS\n\n\n/msg ChanServ ACCESS #CHANNEL LIST\n/msg ChanServ ACCESS #CHANNEL VIEW\n\n\n\n\nChannel info\n\n\nSee all modes:\n\n\n/mode #CHANNEL\n\n\n\n\nPrivate Channels\n\n\nMake channel invite-only, private and secret\n\n\n/mode #CHANNEL +ips\n\n\n\n\nAllow anyone to invite others:\n\n\n/mode #CHANNEL +A\n\n\n\n\nInvite someone once:\n\n\n/invite NICK\n\n\n\n\nMake the invite permanent:\n\n\n/mode #CHANNEL +I *!*@HOSTNAME", 
+            "title": "Notes"
+        }, 
+        {
+            "location": "/opnotes/#irc-operator-information", 
+            "text": "", 
+            "title": "IRC Operator information"
+        }, 
+        {
+            "location": "/opnotes/#links", 
+            "text": "Snoonet channel modes  Snoonet user modes   See also  /msg ChanServ help [command]  with  [command]   AOP  set a collection of access flags giving high level of access.  ACCESS  set access in a medium-grained way via a numeric level.  FLAGS  set access in a fine-grained with via lettered flags.", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/opnotes/#channel-access", 
+            "text": "Setting/seeing who has what permission over the channel settings.  Give ultimate access to exactly one individual:  /msg ChanServ SET FOUNDER #CHANNEL *!*@HOSTNAME  Give full access:  /msg ChanServ AOP #CHANNEL ADD *!*@HOSTNAME  List full access  /msg ChanServ AOP #CHANNEL LIST  More fine grained via ACCESS  /msg ChanServ ACCESS #CHANNEL LIST\n/msg ChanServ ACCESS #CHANNEL VIEW", 
+            "title": "Channel Access"
+        }, 
+        {
+            "location": "/opnotes/#channel-info", 
+            "text": "See all modes:  /mode #CHANNEL", 
+            "title": "Channel info"
+        }, 
+        {
+            "location": "/opnotes/#private-channels", 
+            "text": "Make channel invite-only, private and secret  /mode #CHANNEL +ips  Allow anyone to invite others:  /mode #CHANNEL +A  Invite someone once:  /invite NICK  Make the invite permanent:  /mode #CHANNEL +I *!*@HOSTNAME", 
+            "title": "Private Channels"
+        }
+    ]
+}
