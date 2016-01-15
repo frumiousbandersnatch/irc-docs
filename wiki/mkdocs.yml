@@ -1,0 +1,5 @@
+site_name: Be Sober Now on IRC
+pages:
+  - Home: index.md
+  - Operators:
+    - Notes: opnotes.md
